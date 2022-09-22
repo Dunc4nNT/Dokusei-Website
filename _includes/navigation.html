@@ -1,0 +1,42 @@
+<nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+    <div class="container-fluid">
+        <a href="{{ '/' | relative_url }}" class="navbar-brand"><img class="navbar-img" src="{{ 'assets/images/dokusei_notext.png' | relative_url }}" alt="Dokusei"> Dokusei</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://dunc4nnt.github.io/Dokusei-Docs/"><img src="{{ 'assets/images/book.svg' | relative_url }}" alt="Documentation"> Docs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ '/' | relative_url }}"><img src="{{ 'assets/images/gear.svg' | relative_url }}" alt="Dashboard"> Dashboard</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ '/' | relative_url }}"><img src="{{ 'assets/images/plus.svg' | relative_url }}" alt="Invite"> Invite</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="toolsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="{{ 'assets/images/hammer.svg' | relative_url }}" alt="Tools"> Tools
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="Tools">
+                    <li><a class="dropdown-item" href="{{ 'pages/embed_builder' | relative_url }}">Embed Builder</a></li>
+                    <li><a class="dropdown-item" href="{{ 'pages/logging_calculator' | relative_url }}">Logging Calc</a></li>
+                    <li><a class="dropdown-item" href="{{ 'pages/permissions_calculator' | relative_url }}">Permissions Calc</a></li>
+                  </ul>
+                </li>
+            </ul>
+            <ul class="navbar-nav ms-md-auto gap-2">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://dunc4nnt.github.io/Dokusei-Docs/guide/">Guide</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://dunc4nnt.github.io/Dokusei-Docs/faq/">FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ 'about' | relative_url }}">About</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
