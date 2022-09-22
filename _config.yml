@@ -1,9 +1,5 @@
 title: Dokusei
 description: Website for the Dokusei Discord bot
-domain: dunc4nnt.github.io
-baseurl: ""
-url: https://dunc4nnt.github.io
-github_username: Dunc4nNT
 
 plugins:
     - jekyll-feed
